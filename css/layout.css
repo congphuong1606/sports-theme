@@ -1,0 +1,533 @@
+﻿/* ================= CSS Default ================= */
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a,
+img {
+    transition: all 0.15s ease;
+}
+
+a:focus {
+    outline: none;
+}
+
+a,
+a:hover,
+a:active,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+.padding0 {
+    padding: 0;
+}
+
+.clearfix {
+    clear: both;
+}
+
+
+/* ================= CSS Config ================= */
+
+.space_section {
+    padding: 90px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 55px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-size: 30px;
+    margin-bottom: 35px;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+    font-weight: 600;
+}
+
+h5 {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+h6 {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+p {
+    line-height: 1.8;
+    font-size: 15px;
+    font-weight: 300;
+}
+
+input[type="text"] {
+    font-weight: 400;
+    padding: 12px 15px;
+    border-radius: 0;
+}
+
+input[type="submit"],
+input[type="button"],
+button {
+    padding: 13px 45px;
+    border-radius: 50px;
+    font-size: 16px;
+}
+
+
+/* ================= CSS FULL (content you write code here) ================= */
+
+.container {}
+
+.interleaved__bg {
+    width: 100%;
+}
+
+
+/* ================= HEADER ================= */
+
+header {
+    background: transparent;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+}
+
+.dis__transparent {
+    background-color: #222222;
+}
+
+.navbar {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.boder__bottom__header {
+    width: 100%;
+    background: url(../images/dot01.png) repeat-x;
+    height: 2px;
+}
+
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.nav-item {
+    display: flex;
+}
+
+header .nav-link {
+    font-size: 16px;
+    line-height: 1;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+}
+
+.nav-item span {
+    width: 1px;
+    background-color: orange;
+    margin: 0.5rem 0rem 0.5rem 0rem;
+}
+
+
+/* ================= MAIN ================= */
+
+body {
+    background-color: #222222;
+}
+
+
+/* begin topbackgroud */
+
+#topBackground {
+    padding-top: 80px;
+    /* background:   */
+    background: url(../images/xanh-tam-giac.png) no-repeat bottom, url(../images/top-bottom-left.png) no-repeat left 0px bottom 0px, url(../images/to-bg-right.png) no-repeat right -100px top -38px, url(../images/bg-top-left.png) no-repeat -50px 0px;
+}
+
+
+/* end topbackgroud */
+
+.carousel-indicators li {
+    height: 17px;
+    opacity: 1;
+    background-color: #ffae00!important;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+#carousel h2 {
+    margin-top: 10%;
+    font-style: italic;
+    color: white;
+}
+
+#carousel article {
+    padding: 100px 50px 100px 50px;
+}
+
+.carousel-control-prev {
+    justify-content: left;
+}
+
+.carousel-control-next {
+    justify-content: unset;
+    width: unset;
+}
+
+#carousel p {
+    color: white;
+}
+
+.carousel-indicators .active {
+    background-color: white!important;
+}
+
+#carousel button {
+    color: yellowgreen;
+    border-radius: unset;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+button span {
+    display: block;
+    transform: skewX(20deg)!important;
+    -moz-transform: skewX(20deg);
+    -webkit-transform: skewX(20deg);
+    -o-transform: skewX(20deg);
+    -ms-transform: skewX(20deg);
+}
+
+
+/* begin service */
+
+#service article {
+    /* background-color: black; */
+    margin-bottom: 25px;
+    padding: 20px;
+    color: white;
+}
+
+#service .btn {
+    padding-left: unset;
+    border: unset;
+    color: #f8de01;
+    background: transparent;
+}
+
+#service article h4 {
+    width: 60%;
+}
+
+#service article p {
+    width: 60%;
+}
+
+#service #article1 {
+    background: url(../images/service-1.png) no-repeat right;
+    background-size: contain;
+}
+
+#service #article2 {
+    background: url(../images/service-02.png) no-repeat right;
+    background-size: contain;
+}
+
+#service #article3 {
+    background: url(../images/service-03.png) no-repeat right;
+    background-size: contain;
+}
+
+#service #article4 {
+    background: url(../images/service-04.png) no-repeat right;
+    background-size: contain;
+}
+
+#service .bg__black {
+    background-color: black;
+}
+
+#service .bg__orange article {
+    color: black;
+}
+
+#service .bg__orange {
+    background-color: #f8de01;
+}
+
+#service .bg__orange .btn {
+    color: black;
+}
+
+
+/* begin products */
+
+#products {
+    background-color: #dde6e8;
+}
+
+#products h3 {
+    padding-top: 50px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#products h6 {
+    color: black;
+    padding-bottom: 50px;
+    text-align: center;
+    font-weight: unset;
+}
+
+#products article {
+    background-color: white;
+    padding: 10px;
+}
+
+#products .desition {
+    width: 100%;
+    height: 30px;
+}
+
+#products .img-thumnail {
+    display: flex;
+    justify-content: center;
+    background-color: #dde6e8;
+}
+
+#products .product__name {
+    margin-top: 8px;
+    float: left;
+    font-size: 16px;
+    font-weight: unset;
+}
+
+#products .product_price {
+    margin-top: 8px;
+    font-weight: bold;
+    float: right;
+}
+
+#feature1 {
+    background-color: white;
+}
+
+#feature1 h3 {
+    width: 60%;
+}
+
+#clickKnow1 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: unset;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+#clickKnow2 {
+    margin-top: 20px;
+    font-weight: bold;
+    color: black;
+    border: 1px solid black;
+    padding: 6px 20px;
+    border-radius: unset;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+#feature2 {
+    background-color: #ffae00;
+}
+
+#feature2 h3 {
+    width: 60%;
+    color: white;
+}
+
+.img-feature1 {
+    width: 130%;
+    height: auto;
+}
+
+.img-feature2 {
+    width: 80%;
+    height: auto;
+}
+
+#newsletter {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#newsletter {
+    background-color: #212121;
+}
+
+#newsletter h5 {
+    margin-bottom: 5px;
+    color: white;
+}
+
+#newsletter h4 {
+    color: #ffae00;
+}
+
+#newsletter .row {
+    align-items: center;
+}
+
+#emailInputForm {
+    width: unset;
+    margin: 0px 25px 0px 25px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.mail-input {
+    width: 70%;
+    color: white;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 0px solid white;
+    border-bottom: 1px solid white;
+    border-radius: unset;
+    padding: 5px 25px;
+    background-color: #212121;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+.mail__submit {
+    width: 30%;
+    color: white;
+    background-color: #212121;
+    border: 1px solid #ffae00;
+    height: 40px!important;
+    border-radius: unset;
+    padding: 5px 25px;
+    transform: skewX(-20deg);
+    -moz-transform: skewX(-20deg);
+    -webkit-transform: skewX(-20deg);
+    -o-transform: skewX(-20deg);
+    -ms-transform: skewX(-20deg);
+}
+
+.mail__submit:hover {
+    background-color: #ccc;
+    border: 1px solid #ffae00;
+    height: 40px;
+    border-radius: unset;
+    padding: 5px 25px;
+}
+
+
+/* ================= FOOTER ================= */
+
+footer section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+}
+
+footer p {
+    color: #a7a7a7;
+}
+
+footer h5 {
+    color: white;
+}
+
+.footer__logo {
+    padding-bottom: 20px;
+}
+
+footer li a {
+    text-align: center;
+    color: #a7a7a7;
+}
+
+.text__copyright {
+    text-align: center;
+    color: white;
+    background-color: #212121;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+
+.text__orange {
+    color: #ffae00!important;
+}
+
+
+/* ================= Few Option ================= */
